@@ -6,7 +6,7 @@ import "./styles.css";
 
 const App = () => {
   return (
-    <div className="App">{<Login />}</div>
+    <div className="App"><Login /></div>
   )
 }
 

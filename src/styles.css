@@ -61,3 +61,30 @@
     gap: 8px;
     margin: 10px;
   }
+
+  .layout-part {
+    width: 100%;
+    height: calc(100%+100vh);
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f3ee;
+    max-width: 1500px;
+    min-width: 1400px;
+    margin: auto;
+  }
+
+  .sidebar-part {
+    width: 20%;
+  }
+
+  .content-part {
+    width: 80%;
+    padding: 15px 15px 15px 0px;
+  }
+
+  .sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    overflow-x: hidden; /* Disable horizontal scroll */
+  }
