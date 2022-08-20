@@ -18,6 +18,10 @@ const SideNav = () => {
             Dashboard
             <Link to="/" />
           </MenuItem>
+          <MenuItem icon={<FaWpforms />}>
+            Memo
+            <Link to="/memo" />
+          </MenuItem>
         </Menu>
       </ProSidebar>
     </div>

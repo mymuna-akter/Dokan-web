@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 
 import Dashboard from "./pages/Dashboard"
-import Ledger from "./pages/Ledger"
+import Memo from "./pages/Memo"
 
 const RouterView = () => {
     return (
@@ -10,8 +10,8 @@ const RouterView = () => {
             <Route exact path="/">
                 <Dashboard />
             </Route>
-            <Route exact path="/ledger">
-                <Ledger />
+            <Route exact path="/memo">
+                <Memo />
             </Route>
         </Switch>
     )
