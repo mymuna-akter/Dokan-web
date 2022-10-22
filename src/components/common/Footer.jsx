@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className="py-3 flex-shrink-0 shadow-sm">
         <div className="container text-center">
           <p className="text-muted">
-            Made with ❤️ For Pillar Team
+            Made with ❤️
           </p>
         </div>
       </footer>

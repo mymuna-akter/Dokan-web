@@ -3,16 +3,19 @@ import { Fade } from "react-awesome-reveal";
 import PageHeader from "../components/common/PageHeader"
 import ActionPanel from "../components/memo/ActionPanel"
 import ViewPanel from "../components/memo/ViewPanel"
+import { MemoDataProvider } from "../components/memo/MemoModel/MemoDataContext";
 
 const Memo = () => {
-
+console.log("hello memo");
 return (
     <div>
-        <PageHeader title="Memo" />
+        <MemoDataProvider>
+        <PageHeader title="Memo" />  
         <Fade>
-            <ActionPanel></ActionPanel>
+            <ActionPanel/>
         </Fade>
-        <ViewPanel></ViewPanel>
+        <ViewPanel/>
+     </MemoDataProvider>
     </div>
 )
 };

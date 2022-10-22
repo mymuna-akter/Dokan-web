@@ -1,0 +1,15 @@
+[
+    {
+  "id" : 1,
+  "storeName":"Arafat Enterprise",
+  "issueDate":"12/06/2021",
+  "productName":"Elachi",
+  "productType":"Moshla",
+  "productPrice":1200,
+  "productDescription":"per packet 100 kg",
+  "productAmount":10,
+  "amountOfKGperpacket": 100,
+  "dholai": 120,
+  "total": 1200120
+    }
+ ]
